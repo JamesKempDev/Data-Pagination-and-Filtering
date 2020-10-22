@@ -13,7 +13,7 @@ function showPage (list, page){
          let html = `
          <li class="student-item cf">
          <div class="student-details">
-         <img class="avatar" src="${data[i].picture.thumbnail}" alt="Profile Picture">
+         <img class="avatar" src="${data[i].picture.large}" alt="Profile Picture">
          <h3>${name}</h3>
          <span class="email">${data[i].email}</span>
          </div>
